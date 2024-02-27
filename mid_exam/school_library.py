@@ -11,8 +11,10 @@ def valid_index(index):
     else:
         return False
 
+
 def print_books():
     print(", ".join(book_list))
+
 
 book_list = input().split("&")
 
