@@ -12,4 +12,4 @@ def add_and_subtract(num1, num2, num3):
 
 
 num1, num2, num3 = int(input()),  int(input()), int(input())
-print(add_and_subtract(num1, num2, num3)
+print(add_and_subtract(num1, num2, num3))
