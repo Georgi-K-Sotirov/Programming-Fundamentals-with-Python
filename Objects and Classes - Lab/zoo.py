@@ -19,7 +19,7 @@ class Zoo:
 
     def get_info(self, species):
         if species == "mammal":
-            return f"{species.capitalize()}s in {self.name_of_zoo}: "+ ", ".join(self.mammals) +\
+            return f"{species.capitalize()}s in {self.name_of_zoo}: " + ", ".join(self.mammals) +\
                    f"\nTotal animals: {Zoo.__animals}"
         elif species == "fish":
             return f"{species.capitalize()}es in {self.name_of_zoo}: " + ", ".join(self.fishes) +\
